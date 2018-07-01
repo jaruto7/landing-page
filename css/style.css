@@ -4,16 +4,28 @@ header, main, footer { outline: 2px solid; padding: 1em; margin: 0 auto; }
 
 * { box-sizing: content-box; }
 
-header .logo { float: left; }
+header { background-image: url(https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1c8fe0c9197d66232511525bfd1cc82&auto=format&fit=crop&w=600&q=60); background-size: cover; background-position: center; min-height: 40em; }
 
-header img { max-height: 5em; }
+header .logo { float: left; position: fixed; }
 
-.page_nav { position: absolute; float: right; }
+header img { max-height: 5em; border-radius: 15%; }
+
+.page_nav { position: absolute; position: fixed; float: right; }
 
 .page_nav ul { padding: 0; margin: 0; list-style: none; }
 
-.page_nav li { display: inline-block; padding: .8em; margin-top: 1em; position: relative; left: 36.5em; }
+.page_nav li { display: inline-block; padding: .8em; margin-top: 1em; position: relative; left: 36em; }
 
-.page_nav a { text-decoration: none; color: lightgray; font-family: 'Verdana', sans-serif; text-transform: uppercase; font-size: 13px; }
+.page_nav a { text-decoration: none; color: lightgray; text-shadow: 1px 1px 2px black; font-family: 'Verdana', sans-serif; text-transform: uppercase; font-size: 14px; }
+
+.jumbotron { padding-top: 10em; text-align: center; }
+
+.jumbotron h3 { font-size: 3em; font-family: 'Indie Flower', sans-serif; position: relative; top: .5em; }
+
+.jumbotron h1 { font-size: 4em; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+
+.jumbotron h3, .jumbotron h1 { color: #fff; }
+
+.jumbotron button { background-color: #fab1a0; border: none; border-radius: 5px; padding: 20px 55px; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 18px; font-family: 'Montserrat', sans-serif; }
 
 footer { text-align: center; }

@@ -17,16 +17,23 @@ footer {
 }
 
 header {
+	background-image: url(https://images.unsplash.com/photo-1504610926078-a1611febcad3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1c8fe0c9197d66232511525bfd1cc82&auto=format&fit=crop&w=600&q=60);
+	background-size: cover;
+	background-position: center;
+	min-height: 40em;
 	.logo {
 		float: left;
+		position: fixed;
 	}
 	img {
 		max-height: 5em;
+		border-radius: 15%;
 	}
 }
 
 .page_nav {
 	position: absolute;
+	position: fixed;
 	float: right;
 	ul {
 		padding: 0;
@@ -38,7 +45,7 @@ header {
 		padding: .8em;
 		margin-top: 1em;
 		position: relative;
-		left: 36.5em;
+		left: 36em;
 		&:hover {
 			
 		}
@@ -46,9 +53,40 @@ header {
 	a {
 		text-decoration: none;
 		color: lightgray;
+		text-shadow: 1px 1px 2px black;
 		font-family: 'Verdana', sans-serif;
 		text-transform: uppercase;
-		font-size: 13px;
+		font-size: 14px;
+	}
+}
+
+.jumbotron {
+	padding-top: 10em;
+	text-align: center;
+	h3 {
+		font-size: 3em;
+		font-family: 'Indie Flower', sans-serif;
+		position: relative;
+		top: .5em;
+	}
+	h1 {
+		font-size: 4em;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+	}
+	h3, h1 {
+		color: #fff;
+	}
+	button {
+		background-color: #fab1a0;
+		border: none;
+		border-radius: 5px;
+		padding: 20px 55px;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
 	}
 }
 
