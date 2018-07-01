@@ -1,0 +1,19 @@
+header, main, footer { outline: 2px solid; padding: 1em; margin: 0 auto; }
+
+.clearfix::after { content: ""; display: table; clear: both; }
+
+* { box-sizing: content-box; }
+
+header .logo { float: left; }
+
+header img { max-height: 5em; }
+
+.page_nav { position: absolute; float: right; }
+
+.page_nav ul { padding: 0; margin: 0; list-style: none; }
+
+.page_nav li { display: inline-block; padding: .8em; margin-top: 1em; position: relative; left: 36.5em; }
+
+.page_nav a { text-decoration: none; color: lightgray; font-family: 'Verdana', sans-serif; text-transform: uppercase; font-size: 13px; }
+
+footer { text-align: center; }
